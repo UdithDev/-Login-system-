@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BankAuthApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bbff2cead1d1c81df1d8aae00743d8789c3afa9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e11a77ce08047f619b682f79718b95a4783162d5")]
 [assembly: System.Reflection.AssemblyProductAttribute("BankAuthApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BankAuthApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
