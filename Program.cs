@@ -17,7 +17,7 @@ builder.Services.AddCors(options =>
                 .WithOrigins("http://localhost:5173")
                 .AllowAnyHeader()
                 .AllowAnyMethod();
-        });
+        }); 
 }
 );
 
@@ -34,9 +34,11 @@ var app = builder.Build();
 // app.UseHttpsRedirection();
 
 // app.UseAuthentication();
+app.UseCors("ReactPolicy");
 // app.UseAuthorization();
 
 // app.MapControllers();
+
 
 
 

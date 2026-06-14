@@ -159,3 +159,4 @@ D:\mern\BankAuthApi\BankAuthApi\obj\Debug\net10.0\refint\BankAuthApi.dll
 D:\mern\BankAuthApi\BankAuthApi\obj\Debug\net10.0\BankAuthApi.pdb
 D:\mern\BankAuthApi\BankAuthApi\obj\Debug\net10.0\BankAuthApi.genruntimeconfig.cache
 D:\mern\BankAuthApi\BankAuthApi\obj\Debug\net10.0\ref\BankAuthApi.dll
+D:\mern\BankAuthApi\BankAuthApi\obj\Debug\net10.0\BankAuthApi.sourcelink.json
