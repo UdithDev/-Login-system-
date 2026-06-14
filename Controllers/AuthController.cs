@@ -10,7 +10,7 @@ public class AuthController : ControllerBase
     [HttpPost("register")]
     public IActionResult Register(RegisterDTO registerDTO)
     {
-        return Ok();
+         return Ok("User registered successfully");
     }
 
     [HttpPost("login")]

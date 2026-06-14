@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-
+using BankAuthApi.DB;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,6 +21,13 @@ builder.Services.AddCors(options =>
 }
 );
 
+builder.Services.AddDbContext<AppDbContext>(options =>
+{
+    options.UseNpgsql(
+        builder.Configuration.GetConnectionString("DefaultConnection")
+    );
+});
+
 
 var app = builder.Build();
 
@@ -35,7 +42,7 @@ var app = builder.Build();
 
 // app.UseAuthentication();
 app.UseCors("ReactPolicy");
-// app.UseAuthorization();
+app.UseAuthorization();
 
 // app.MapControllers();
 
